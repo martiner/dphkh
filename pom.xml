@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cz.geek</groupId>
-    <artifactId>dphkh</artifactId>
+    <artifactId>epo</artifactId>
     <version>0.1.0-SNAPSHOT</version>
 
     <build>

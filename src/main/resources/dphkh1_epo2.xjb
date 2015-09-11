@@ -6,7 +6,7 @@
 
     <jaxb:bindings schemaLocation="dphkh1_epo2.xsd" node="/xs:schema">
         <jaxb:schemaBindings>
-            <jaxb:package name="cz.geek.kontrolnihlaseni.model"/>
+            <jaxb:package name="cz.geek.epo.dphkh"/>
         </jaxb:schemaBindings>
         <jaxb:globalBindings localScoping="toplevel"/> <!-- to avoid nested classes -->
     </jaxb:bindings>
