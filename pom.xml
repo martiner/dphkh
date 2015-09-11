@@ -34,6 +34,14 @@
                         <configuration>
                             <xsdOptions>
                                 <xsdOption>
+                                    <xsd>${basedir}/src/main/resources/dphdp3_epo2.xsd</xsd>
+                                    <bindingFile>${basedir}/src/main/resources/dphdp3_epo2.xjb</bindingFile>
+                                    <extensionArgs>
+                                        <extensionArg>-Xdv</extensionArg>
+                                        <extensionArg>-Xjavadoc</extensionArg>
+                                    </extensionArgs>
+                                </xsdOption>
+                                <xsdOption>
                                     <xsd>${basedir}/src/main/resources/dphkh1_epo2.xsd</xsd>
                                     <bindingFile>${basedir}/src/main/resources/dphkh1_epo2.xjb</bindingFile>
                                     <extensionArgs>
